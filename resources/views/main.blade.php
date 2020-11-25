@@ -22,6 +22,18 @@
                 <a href="#" class="col-xl-1 col-5 header__logo">
                     <img src="image/logo.jpg" alt="">
                 </a>
+{{--                @extends('layouts.app')--}}
+{{--                @include('customMenuItems', ['items'=>$menu->roots()])--}}
+{{--                @section('menu')--}}
+{{--                    @if($menu)--}}
+{{--                        <div class="menu classic">--}}
+{{--                            <ul id="nav" class="menu">--}}
+{{--                                <!--$menu->roots() - получаем только родительские элементы меню-->--}}
+{{--                                @include('customMenuItems', ['items'=>$menu->roots()])--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    @endif--}}
+{{--                @endsection--}}
                 <div class="col-auto d-lg-none d-block">
                     <div class="row">
                         <div class="col">

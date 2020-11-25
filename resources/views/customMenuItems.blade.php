@@ -1,8 +1,8 @@
-@include('customMenuItems', ['items'=>$menu->roots()])
-@foreach($items as $item)
+
+@foreach($items as $menu)
     <li {{ (URL::current() == $item->url()) ? "class=active" : '' }}>
-        <a href="{{ $item->url() }}">{{ $item->title }}</a>
-        @if($item->hasChildren())
+        <a href="{{ $menu->url() }}">{{ $menu->title }}</a>
+        @if($menu->hasChildren())
             <ul class="sub-menu">
                 @include(env('THEME').'.customMenuItems', ['items'=>$item->children()])
             </ul>

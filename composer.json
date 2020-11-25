@@ -17,7 +17,8 @@
         "laravel/nova": "*",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.1",
-        "lavary/laravel-menu": "^1.7"
+        "lavary/laravel-menu": "^1.7",
+        "tcg/voyager": "^1.4"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -48,12 +49,16 @@
             "Tests\\": "tests/"
         }
     },
-    "repositories": [
-        {
+    "repositories": {
+        "0": {
             "type": "composer",
             "url": "https://nova.laravel.com"
+        },
+        "hooks": {
+            "type": "composer",
+            "url": "https://larapack.io"
         }
-    ],
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {

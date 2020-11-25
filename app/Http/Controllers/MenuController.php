@@ -16,6 +16,7 @@ class MenuController
     {
         $arrMenu = LavMenu::all();
         $menu = $this->buildMenu($arrMenu);
+        dump($menu);
         return view('main', ['menu' => $menu]);
     }
 
