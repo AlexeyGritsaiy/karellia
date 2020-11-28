@@ -4,6 +4,14 @@ RUN apt-get update && apt-get install -y libmcrypt-dev \
     libzip-dev \
     && docker-php-ext-install pdo_mysql zip pcntl
 
+RUN apt-get update -y && apt-get install -y libpng-dev libjpeg-dev libxpm-dev libfreetype6-dev  nano  \
+    && docker-php-ext-configure gd \
+    --with-freetype-dir=/usr/include/ \
+    --with-jpeg-dir=/usr/include/ \
+    --with-xpm-dir=/usr/include/
+
+RUN docker-php-ext-install gd exif
+
 RUN chown -R www-data:www-data /var/www
 
 WORKDIR /var/www

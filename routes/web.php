@@ -14,12 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('main');
+    $posts = App\Models\Post::all();
+    return view('main', compact('posts'));
+});
+Route::get('/about', function () {
+    return view('about');
 });
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/about', [App\Http\Controllers\AboutController::class, 'index'])->name('home');
 
 
 Route::group(['prefix' => 'admin'], function () {

@@ -7,12 +7,6 @@
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://localhost:3306</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="@localhostM" uuid="580922f4-a5f4-4a14-8526-68d1de01ac5d">
-      <driver-ref>mariadb</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mariadb://localhost:3306</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="MySQL - app@localhost" uuid="4070e203-ddba-49a6-b643-112c804d55c0">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
