@@ -84,7 +84,39 @@
                 </div>
                 <div class="header__bottom">
                     <nav class="header__nav">
-                        {{ menu('main' , 'layouts.menu') }}
+                        <ul class="nav__ul row">
+                            <li class="nav__li col-auto">
+                                <a href="#" class="nav__link">Главная</a>
+                            </li>
+                            <li class="nav__li col-auto">
+                                <a href="#" class="nav__link">О Карелии</a>
+                            </li>
+                            <li class="nav__li col-auto">
+                                <a href="#" class="nav__link">Туристам</a>
+                            </li>
+                            <li class="nav__li col-auto">
+                                <a href="#" class="nav__link">Маршруты</a>
+                            </li>
+                            <li class="nav__li col-auto">
+                                <a href="#" class="nav__link">События</a>
+                            </li>
+                            <li class="nav__li col-auto">
+                                <a href="#" class="nav__link">Новости</a>
+                            </li>
+                            <li class="nav__li col-auto">
+                                <a href="#" class="nav__link">Впечатления</a>
+                            </li>
+                            <li class="nav__li col-auto ml-auto nav__li-last">
+                                <a href="#" class="nav__link">
+										<span class="eye">
+											<svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M11.9997 4.90918C13.8052 4.90918 15.2725 6.37643 15.2725 8.1819C15.2725 9.98738 13.8052 11.4546 11.9997 11.4546C10.1943 11.4546 8.72701 9.98738 8.72701 8.1819C8.72701 6.37643 10.1943 4.90918 11.9997 4.90918Z" fill="white"/>
+												<path d="M12 0C17.4545 0 22.1127 3.3927 24 8.18182C22.1127 12.9709 17.4545 16.3636 12 16.3636C6.53999 16.3636 1.88724 12.9709 -5.14984e-05 8.18182C1.88724 3.3927 6.53999 0 12 0ZM12 13.6363C15.0109 13.6363 17.4545 11.1927 17.4545 8.18177C17.4545 5.17086 15.0109 2.72726 12 2.72726C8.98906 2.72726 6.54541 5.17091 6.54541 8.18182C6.54541 11.1927 8.98906 13.6363 12 13.6363Z" fill="white"/>
+											</svg>
+										</span>
+                                </a>
+                            </li>
+                        </ul>
                     </nav>
                 </div>
             </div>
@@ -97,7 +129,7 @@
             <div class="col offset-xl-1">
                 <ul class="breadcrumbs__ul row">
                     <li class="breadcrumbs__li col-auto"><a href="#">Главная</a></li>
-                    <li class="breadcrumbs__li col-auto breadcrumbs__li_active"><span>О Карелии</span></li>
+                    <li class="breadcrumbs__li col-auto breadcrumbs__li_active"><span>Кафе и рестораны</span></li>
                 </ul>
             </div>
         </div>
@@ -107,7 +139,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg col-12 offset-xl-1">
-                <h2 class="title-h2">Общая информация о Карелии</h2>
+                <h2 class="title-h2">Кафе и рестораны</h2>
             </div>
             <ul class="col-auto banner__socials">
                 <li>
@@ -175,298 +207,176 @@
         </div>
     </div>
 </section>
-<section class="main__block">
-    <div class="main__photo">
-        <img src="image/photo17.jpg" alt="">
-    </div>
-    <div class="container">
-        <div class="text-photo">
-            <div class="row justify-content-between">
-                <div class="col-lg-6 offset-xl-1">
-                    <p class="text-p">
-                        Более пяти тысяч лет петроглифам - дошедшим до наших дней наскальным изображениям, выбитым рукой древнею человека. Это знаковые символы, представляющие один из первых образцов древней письменности и культуры человека.
-                    </p>
-                    <p class="text-p">
-                        Отдых в Карелии - это незабываемые впечатления, встреча с неброской, но удивительно притягательной и доброй северной природой, качественное обслуживание и комфорт размещения в коттеджах и загородных гостевых домах, умело организованная охота и рыбалка. Туристские фирмы и организации республики сделают все возможное, чтобы отдых, проведенный в Карелии, вне зависимости, лето это или зима, стал для Вас доброй памятью и вызвал желание возвращаться в этот край снова и снова.
-                    </p>
-                </div>
-                <div class="col-lg-auto">
-                    <div class="photo">
-                        <img src="image/photo18.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="hard-block parallax-window" data-parallax="scroll" data-image-src="image/photo19.jpg">
-        <div class="container">
-            <div class="block ">
-                <div class="row align-items-lg-center h-100 justify-content-lg-center flex-lg-row-reverse flex-column-reverse">
-                    <div class="block-one">
-                        <svg class="d-lg-block d-none" width="251" height="60" viewBox="0 0 251 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M23.76 0H214.444C236.102 0 251 9.10515 251 29.9918C251.021 50.9768 236.385 60.059 214.184 59.9997H0V0L23.76 0Z" fill="#096FA7"/>
-                        </svg>
-                        <p class="text-p ml-lg-3">1708 - 1721</p>
-                        <svg class='hard__arrow ml-lg-3' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#096FA7" stroke="#096FA7"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-                        <div class="bottom-line d-lg-block d-none ml-lg-3">
-                            <div class="side-line"></div>
-                            <div class="triangle">
-                            </div>
-                            <div class="side-line"></div>
-                        </div>
-                        <div class="text-bottom ml-lg-3">Российская империя</div>
-                    </div>
-                    <div class="block-one">
-                        <svg class="d-lg-block d-none" width="247" height="60" viewBox="0 0 247 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0L209.976 0C231.594 0 247 9.09437 247 30C247 50.9056 231.594 60 209.976 60H0V0Z" fill="#004B6E"/>
-                        </svg>
-                        <p class="text-p ml-lg-3">1530 - 1550</p>
-                        <svg class='hard__arrow ml-lg-3' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#004B6E" stroke="#004B6E"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-                        <div class="bottom-line d-lg-block d-none ml-lg-3">
-                            <div class="side-line"></div>
-                            <div class="triangle">
-                            </div>
-                            <div class="side-line"></div>
-                        </div>
-                        <div class="text-bottom ml-lg-3">Карельское герцогство</div>
-                    </div>
-                    <div class="block-one">
-                        <svg class="d-lg-block d-none" width="246" height="60" viewBox="0 0 246 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0L209.165 0C230.867 0 245.5 9.09431 245.5 30C245.5 50.9056 230.867 60 209.165 60H0V0Z" fill="#A71C1C"/>
-                        </svg>
-                        <p class="text-p ml-lg-3">1337 - 1338</p>
-                        <svg class='hard__arrow ml-lg-3' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#A71C1C" stroke="#A71C1C"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-                        <div class="bottom-line d-lg-block d-none ml-lg-3">
-                            <div class="side-line"></div>
-                            <div class="triangle">
-                            </div>
-                            <div class="side-line"></div>
-                        </div>
-                        <div class="text-bottom ml-lg-3">Постройка Выборга</div>
-                    </div>
-                    <div class="block-one">
-                        <svg class="d-lg-block d-none" width="255" height="60" viewBox="0 0 255 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0L217.887 0C239.546 0 255 9.09436 255 30C255 50.9056 239.546 60 217.887 60H0V0Z" fill="#D7182A"/>
-                        </svg>
-                        <p class="text-p ml-lg-3">1333 - 1335</p>
-                        <svg class='hard__arrow ml-lg-3' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#D7182A" stroke="#D7182A"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-                        <div class="bottom-line d-lg-block d-none ml-lg-3">
-                            <div class="side-line"></div>
-                            <div class="triangle">
-                            </div>
-                            <div class="side-line"></div>
-                        </div>
-                        <div class="text-bottom ml-lg-3">Восстание в Кореле</div>
-                    </div>
-                    <div class="block-one">
-                        <svg class="d-lg-block d-none" width="228" height="60" viewBox="0 0 228 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M190.909 60H0L36.1281 29.992L0.115705 0H191.025C212.652 0.0320289 228 9.14329 228 30C228 50.8948 212.567 59.9872 190.909 60Z" fill="#F096AD"/>
-                        </svg>
-                        <p class="text-p">1277 - 1278</p>
-                        <svg class='hard__arrow' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#F096AD" stroke="#F096AD"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-                        <div class="bottom-line d-lg-block d-none">
-                            <div class="side-line"></div>
-                            <div class="triangle">
-                            </div>
-                            <div class="side-line"></div>
-                        </div>
-                        <div class="text-bottom">Сага о Скьёлдунгах</div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="block d-lg-none d-none">
-                <div class="row flex-column-reverse">
-                    <div class="block-one">
-
-                        <p class="text-p ">1708 - 1721</p>
-                        <svg class='hard__arrow ' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#096FA7" stroke="#096FA7"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-
-                        <div class="text-bottom ">Российская империя</div>
-                    </div>
-                    <div class="block-one">
-
-                        <p class="text-p ">1530 - 1550</p>
-                        <svg class='hard__arrow ' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#004B6E" stroke="#004B6E"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-
-                        <div class="text-bottom ">Карельское герцогство</div>
-                    </div>
-                    <div class="block-one">
-
-                        <p class="text-p ">1337 - 1338</p>
-                        <svg class='hard__arrow ' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#A71C1C" stroke="#A71C1C"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-
-                        <div class="text-bottom ">Постройка Выборга</div>
-                    </div>
-                    <div class="block-one">
-
-                        <p class="text-p ">1333 - 1335</p>
-                        <svg class='hard__arrow ' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#D7182A" stroke="#D7182A"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-
-                        <div class="text-bottom ">Восстание в Кореле</div>
-                    </div>
-                    <div class="block-one">
-
-                        <p class="text-p">1277 - 1278</p>
-                        <svg class='hard__arrow' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#F096AD" stroke="#F096AD"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-
-                        <div class="text-bottom">Сага о Скьёлдунгах</div>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-    </div>
-    <div class="container">
-        <h2 class="title-h2 title-h2_block offset-1">Времена года</h2>
-        <div class="text-photo">
-            <div class="row justify-content-between">
-                <div class="col-lg-auto offset-xl-1">
-                    <div class="photo">
-                        <img src="image/photo20.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <p class="text-p">
-                        Более пяти тысяч лет петроглифам - дошедшим до наших дней наскальным изображениям, выбитым рукой древнею человека. Это знаковые символы, представляющие один из первых образцов древней письменности и культуры человека.
-                    </p>
-                    <p class="text-p">
-                        Отдых в Карелии - это незабываемые впечатления, встреча с неброской, но удивительно притягательной и доброй северной природой, качественное обслуживание и комфорт размещения в коттеджах и загородных гостевых домах, умело организованная охота и рыбалка. Туристские фирмы и организации республики сделают все возможное, чтобы отдых, проведенный в Карелии, вне зависимости, лето это или зима, стал для Вас доброй памятью и вызвал желание возвращаться в этот край снова и снова.
-                    </p>
-                </div>
-
-            </div>
-        </div>
-        <div class="text-photo">
-            <div class="row justify-content-between">
-                <div class="col-lg-6 offset-xl-1 order-lg-1 order-2">
-                    <p class="text-p">
-                        Более пяти тысяч лет петроглифам - дошедшим до наших дней наскальным изображениям, выбитым рукой древнею человека. Это знаковые символы, представляющие один из первых образцов древней письменности и культуры человека.
-                    </p>
-                    <p class="text-p">
-                        Отдых в Карелии - это незабываемые впечатления, встреча с неброской, но удивительно притягательной и доброй северной природой, качественное обслуживание и комфорт размещения в коттеджах и загородных гостевых домах, умело организованная охота и рыбалка. Туристские фирмы и организации республики сделают все возможное, чтобы отдых, проведенный в Карелии, вне зависимости, лето это или зима, стал для Вас доброй памятью и вызвал желание возвращаться в этот край снова и снова.
-                    </p>
-                </div>
-                <div class="col-lg-auto order-lg-2 order-1">
-                    <div class="photo">
-                        <img src="image/photo21.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="main__photo">
-        <img src="image/photo22.jpg" alt="">
-    </div>
+<section class="filers__all filers-cafe">
     <div class="container">
         <div class="row">
-            <div class="col offset-lg-1">
-                <p class="text-p text-p_under">
-                    Отдых в Карелии - это незабываемые впечатления, встреча с неброской, но удивительно притягательной и доброй северной природой, качественное обслуживание и комфорт размещения в коттеджах и загородных гостевых домах, умело организованная охота и рыбалка. Туристские фирмы и организации республики сделают все возможное, чтобы отдых, проведенный в Карелии, вне зависимости, лето это или зима, стал для Вас доброй памятью и вызвал желание возвращаться в этот край снова и снова.
-                </p>
-            </div>
-        </div>
-        <div class="articles">
-            <h2 class="title-h2 offset-1">Статьи</h2>
-            <div class="row justify-content-center row-cols-lg-2">
-                <div class="col-lg-5 col">
-                    <div class="articles__item">
-                        <div class="photo">
-                            <img src="image/photo23.jpg" alt="">
+            <div class="col-xl-3 col-lg-4 offset-xl-1">
+                <div class="filter__block">
+                    <h5 class="title-h5 filter__block-title">Фильтр заведений</h5>
+                    <a href="#" class="filter__block-clear">
+                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.99999 13C3.69141 13 0.999981 10.3086 0.999982 6.99999C0.999982 3.69138 3.69141 0.999981 6.99999 0.999981C9.96722 0.999982 12.4313 3.16685 12.9097 5.99998L11 5.99998L13.5 8.49998L16 5.99998L13.9202 5.99998C13.4324 2.61339 10.5195 -2.39561e-07 6.99999 -3.93403e-07C3.14014 -5.62122e-07 -1.3726e-07 3.14014 -3.05979e-07 6.99999C-4.74699e-07 10.8598 3.14014 14 6.99999 14L6.99999 13Z" fill="#D7182A"/>
+                        </svg>
+                        Сбросить фильтры
+                    </a>
+                    <div class="row">
+                        <div class="filter__block-setting col-lg-12 col-6">
+                            <h5 class="title-h5">Выберите из списка:</h5>
+                            <div class="filter__block-settings select__block">
+                                <div class="select">
+                                    <div class="select__head">
+                                        Испания
+                                    </div>
+                                    <div class="select__body">
+                                        <ul>
+                                            <li>Испания</li>
+                                            <li>Испания</li>
+                                            <li>Испания</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="block__bottom">
-                            <div class="block__info">
-                                <h5 class="title-h5">Название:</h5>
-                                <p class="text-p">День Республики</p>
+                        <div class="filter__block-setting col-lg-12 col-6">
+                            <h5 class="title-h5">Город / Населенный пункт:</h5>
+                            <div class="filter__block-settings select__block">
+                                <!-- <h5 class="title-h5">Город / Населенный пункт:</h5> -->
+                                <div class="select">
+                                    <div class="select__head">
+                                        Испания
+                                    </div>
+                                    <div class="select__body">
+                                        <ul>
+                                            <li>Испания</li>
+                                            <li>Испания</li>
+                                            <li>Испания</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="block__info">
-                                <h5 class="title-h5">Дата:</h5>
-                                <p class="text-p">09.07.2020</p>
+                        </div>
+                        <div class="filter__block-setting col-lg-12 col-6">
+                            <h5 class="title-h5">Кафе / Ресторан:</h5>
+                            <div class="setting__buttons">
+                                <div class="buttons__item">
+                                    <input id="ch7" type="checkbox">
+                                    <label for="ch7">Ресторан</label>
+                                </div>
+                                <div class="buttons__item">
+                                    <input id="ch8" type="checkbox">
+                                    <label for="ch8">Кафе</label>
+                                </div>
+                                <div class="buttons__item">
+                                    <input id="ch9" type="checkbox">
+                                    <label for="ch9">Другое</label>
+                                </div>
                             </div>
-                            <div class="block__info">
-                                <h5 class="title-h5">Вид:</h5>
-                                <p class="text-p">Праздник</p>
+                        </div>
+                        <a href="#" class="button-a">Поиск</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <h4 class="title-h4 title-filter">Найдено: 4 ресторана</h4>
+                <div class="block__finder row">
+                    <div class="col-md-6">
+                        <div class="block__item">
+                            <div class="photo">
+                                <img src="image/photo26.jpg" alt="">
                             </div>
-                            <div class="block__info">
-                                <h5 class="title-h5">Место проведени:</h5>
-                                <p class="text-p">Карелия</p>
+                            <div class="bottom__text">
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Имя:</h5>
+                                    <p class="text-p">Fusion</p>
+                                </div>
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Район:</h5>
+                                    <p class="text-p">Пряжинский</p>
+                                </div>
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Город:</h5>
+                                    <p class="text-p">Пряжин</p>
+                                </div>
+                                <a href="#" data-popup="cafe" class="button-a button-a_v2">Посмотреть</a>
                             </div>
-                            <a href="#" class="button-a button-a_v2">Посмотреть</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="block__item">
+                            <div class="photo">
+                                <img src="image/photo26.jpg" alt="">
+                            </div>
+                            <div class="bottom__text">
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Имя:</h5>
+                                    <p class="text-p">Fusion</p>
+                                </div>
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Район:</h5>
+                                    <p class="text-p">Пряжинский</p>
+                                </div>
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Город:</h5>
+                                    <p class="text-p">Пряжин</p>
+                                </div>
+                                <a href="#" class="button-a button-a_v2">Посмотреть</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="block__item">
+                            <div class="photo">
+                                <img src="image/photo26.jpg" alt="">
+                            </div>
+                            <div class="bottom__text">
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Имя:</h5>
+                                    <p class="text-p">Fusion</p>
+                                </div>
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Район:</h5>
+                                    <p class="text-p">Пряжинский</p>
+                                </div>
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Город:</h5>
+                                    <p class="text-p">Пряжин</p>
+                                </div>
+                                <a href="#" class="button-a button-a_v2">Посмотреть</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="block__item">
+                            <div class="photo">
+                                <img src="image/photo26.jpg" alt="">
+                            </div>
+                            <div class="bottom__text">
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Имя:</h5>
+                                    <p class="text-p">Fusion</p>
+                                </div>
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Район:</h5>
+                                    <p class="text-p">Пряжинский</p>
+                                </div>
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Город:</h5>
+                                    <p class="text-p">Пряжин</p>
+                                </div>
+                                <a href="#" class="button-a button-a_v2">Посмотреть</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 col">
-                    <div class="articles__item">
-                        <div class="photo">
-                            <img src="image/photo23.jpg" alt="">
-                        </div>
-                        <div class="block__bottom">
-                            <div class="block__info">
-                                <h5 class="title-h5">Название:</h5>
-                                <p class="text-p">День Республики</p>
-                            </div>
-                            <div class="block__info">
-                                <h5 class="title-h5">Дата:</h5>
-                                <p class="text-p">09.07.2020</p>
-                            </div>
-                            <div class="block__info">
-                                <h5 class="title-h5">Вид:</h5>
-                                <p class="text-p">Праздник</p>
-                            </div>
-                            <div class="block__info">
-                                <h5 class="title-h5">Место проведени:</h5>
-                                <p class="text-p">Карелия</p>
-                            </div>
-                            <a href="#" class="button-a button-a_v2">Посмотреть</a>
-                        </div>
+                <div class="row justify-content-center">
+                    <div class="pagination col-auto">
+                        <ul>
+                            <li class="pagination__arr pagination__arr-prev"><a href="#"></a></li>
+                            <li class="pagination__page pagination__page_active"><a href="#">1</a></li>
+                            <li class="pagination__page"><a href="#">2</a></li>
+                            <li class="pagination__page"><a href="#">3</a></li>
+                            <li class="pagination__arr pagination__arr-next"><a href="#"></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -570,7 +480,29 @@
                 <div class="footer__bottom">
                     <div class="row justify-content-between">
                         <nav class="footer__nav col">
-                            {{ menu('footer_menu' , 'layouts.footer_menu') }}
+                            <ul class="nav__ul row">
+                                <li class="nav__li col-4">
+                                    <a href="#" class="nav__link">Главная</a>
+                                </li>
+                                <li class="nav__li col-4">
+                                    <a href="#" class="nav__link">О Карелии</a>
+                                </li>
+                                <li class="nav__li col-4">
+                                    <a href="#" class="nav__link">События</a>
+                                </li>
+                                <li class="nav__li col-4">
+                                    <a href="#" class="nav__link">Новости</a>
+                                </li>
+                                <li class="nav__li col-6">
+                                    <a href="#" class="nav__link">Туристам</a>
+                                </li>
+                                <li class="nav__li col-4">
+                                    <a href="#" class="nav__link">Впечатления</a>
+                                </li>
+                                <li class="nav__li col-6">
+                                    <a href="#" class="nav__link">Маршруты</a>
+                                </li>
+                            </ul>
                         </nav>
                         <div class="footer__info col-4">
                             <a href="tel: +78142764835">
@@ -622,29 +554,7 @@
                     </div>
                 </div>
                 <nav class="footer__nav">
-                    <ul class="nav__ul row">
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Главная</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">О Карелии</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Новости</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Туристам</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Впечатления</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Маршруты</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">События</a>
-                        </li>
-                    </ul>
+                    {{ menu('footer_menu' , 'layouts.footer_menu') }}
                 </nav>
                 <div class="footer__info row justify-content-between">
                     <a class="col-auto" href="#">
@@ -742,8 +652,138 @@
             </div>
         </div>
     </div>
-
 </footer>
+<div class="bgd__popup row align-items-center justify-content-center">
+    <div class="popup popup-cafe">
+        <svg class="close-popup" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24.9998 45.8332C36.5058 45.8332 45.8332 36.5058 45.8332 24.9998C45.8332 13.4939 36.5058 4.1665 24.9998 4.1665C13.4939 4.1665 4.1665 13.4939 4.1665 24.9998C4.1665 36.5058 13.4939 45.8332 24.9998 45.8332Z" fill="white"/>
+            <path d="M31.25 18.75L18.75 31.25" stroke="#252222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18.75 18.75L31.25 31.25" stroke="#252222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="container">
+            <div class="popup__inner">
+                <div class="slider__popup">
+                    <div class="slider__item">
+                        <div class="photo">
+                            <img src="image/photo30.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="photo">
+                            <img src="image/photo30.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row title__popup justify-content-between align-items-center">
+                    <div class="col-lg-auto col-12">
+                        <h2 class="title-h2">Fusion  </h2>
+                    </div>
+                    <ul class="banner__socials col-lg-auto col-12">
+                        <li>
+                            <a href="#">
+                                <img src="image/facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/tweeter.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/instagram.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/vk.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/email.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/fax.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="center__block">
+                    <div class="row justify-content-between">
+                        <div class="col-lg col-12 center__ul">
+                            <ul class="row">
+                                <li class="col-lg-5">Адрес: </li>
+                                <li class="col-lg-7">185001, республика Карелия, Петрозаводский район, Город Петрозаводск, ул. Красноармейская, 33.</li>
+                            </ul>
+                            <ul class="row">
+                                <li class="col-lg-5">Веб-сайт:</li>
+                                <li class="col-lg-7"><a href="#">www.fusion.petrofood.ru</a></li>
+                            </ul>
+                            <ul class="row">
+                                <li class="col-lg-5">Доп. информация:</li>
+                                <li class="col-lg-7">(8142) 78-15-78</li>
+                            </ul>
+                            <a href="#" class="button-a col">Меню</a>
+                        </div>
+                        <div class="col-lg-5 col-12">
+                            <div class="block-owl">
+                                <div class="row align-items-center block__top">
+                                    <div class="col-auto">
+                                        <img src="image/owl.svg" alt="">
+                                    </div>
+                                    <div class="col-auto top__name">
+                                        <div class="owl__title">trip<span>advisor</span></div>
+                                    </div>
+                                </div>
+                                <h6 class="title-h6">33 reviews of Karelia Hostel</h6>
+                                <hr>
+                                <h5 class="title-h5">TripAdvisor Traveler Rating:</h5>
+                                <ul class="ul__circle">
+                                    <li class="fill"></li>
+                                    <li class="fill"></li>
+                                    <li class="fill"></li>
+                                    <li class="fill"></li>
+                                    <li></li>
+                                </ul>
+                                <h6 class="title-h6 title-h6_green">Based on 33 traveler reviews</h6>
+                                <hr>
+                                <h5 class="title-h5">Most Recent Traveler Reviews:</h5>
+                                <h6 class="title-h6">April 28, 2020: “Relaxed weekend gateway”</h6>
+                                <h6 class="title-h6">April 28, 2020: “Wonderful staycation”</h6>
+                                <ul class="ul__bottom">
+                                    <li><a href="#">Read Reviews</a></li>
+                                    <li><a href="#">Write a review</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between block__rphoto">
+                    <div class="col-auto">
+                        <div class="photo">
+                            <img src="image/photo31.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <p class="text-p">Ресторан “Фьюжн” был открыт в октябре 2009 года.</p>
+                        <p class="text-p">Изысканный и элегантный интерьер ресторана располагает к приятному отдыху. Элементы декора придают особый шарм интерьеру ресторана.</p>
+                        <p class="text-p">О кухне ресторана разговор особый. Ее отличает совершенно особенный гастрономический стиль, объединяющий лучшие кулинарные традиции Европы и секреты Восточной кухни.</p>
+                        <p class="text-p">Изысканный и элегантный интерьер ресторана располагает к приятному отдыху. Элементы декора придают особый шарм интерьеру ресторана.</p>
+                        <h4 class="title-h4 title-regime">Режим работы: </h4>
+                        <ul>
+                            <li>Пн.-Сб.: 08:30-02:00.</li>
+                            <li>Вс.: 10:00-02:00.</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="button-a button-a_bottom">Обратно ко всем маршрутам</a>
+            </div>
+        </div>
+    </div>
+</div>
 <script type="text/javascript" src="/build/js/app.min.js"></script>
 <script type="text/javascript" src="/build/js/sliderUI.js"></script>
 <script type="text/javascript" src="/build/js/sliderUI_PUSH.js"></script>

@@ -26,7 +26,7 @@
     <header class="header">
         <div class="container">
             <div class="row justify-content-lg-start justify-content-between align-items-lg-start align-items-center">
-                <a href="#" class="col-xl-1 col-5 header__logo">
+                <a href="/" class="col-xl-1 col-5 header__logo">
                     <img src="image/logo.jpg" alt="">
                 </a>
                 <div class="col-auto d-lg-none d-block">
@@ -520,29 +520,7 @@
                 <div class="footer__bottom">
                     <div class="row justify-content-between">
                         <nav class="footer__nav col">
-                            <ul class="nav__ul row">
-                                <li class="nav__li col-4">
-                                    <a href="#" class="nav__link">Главная</a>
-                                </li>
-                                <li class="nav__li col-4">
-                                    <a href="#" class="nav__link">О Карелии</a>
-                                </li>
-                                <li class="nav__li col-4">
-                                    <a href="#" class="nav__link">События</a>
-                                </li>
-                                <li class="nav__li col-4">
-                                    <a href="#" class="nav__link">Новости</a>
-                                </li>
-                                <li class="nav__li col-6">
-                                    <a href="#" class="nav__link">Туристам</a>
-                                </li>
-                                <li class="nav__li col-4">
-                                    <a href="#" class="nav__link">Впечатления</a>
-                                </li>
-                                <li class="nav__li col-6">
-                                    <a href="#" class="nav__link">Маршруты</a>
-                                </li>
-                            </ul>
+                            {{ menu('footer_menu' , 'layouts.footer_menu') }}
                         </nav>
                         <div class="footer__info col-4">
                             <a href="tel: +78142764835">
@@ -594,29 +572,7 @@
                     </div>
                 </div>
                 <nav class="footer__nav">
-                    <ul class="nav__ul row">
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Главная</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">О Карелии</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Новости</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Туристам</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Впечатления</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Маршруты</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">События</a>
-                        </li>
-                    </ul>
+{{--                    {{ menu('footer_menu' , 'layouts.footer_menu') }}--}}
                 </nav>
                 <div class="footer__info row justify-content-between">
                     <a class="col-auto" href="#">
@@ -715,8 +671,9 @@
         </div>
     </div>
 </footer>
-<!-- Scripts -->
 <script type="text/javascript" src="/build/js/app.min.js"></script>
+<script type="text/javascript" src="/build/js/sliderUI.js"></script>
+<script type="text/javascript" src="/build/js/sliderUI_PUSH.js"></script>
 <script type="text/javascript" src="/build/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/build/js/slick.min.js"></script>
 <script type="text/javascript" src="/build/js/parallax.min.js"></script>

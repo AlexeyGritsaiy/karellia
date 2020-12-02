@@ -22,6 +22,7 @@
     <!-- links	 -->
 </head>
 <body>
+<body>
 <header class="header header_v2">
     <div class="container">
         <div class="row justify-content-lg-start justify-content-between align-items-lg-start align-items-center">
@@ -97,7 +98,7 @@
             <div class="col offset-xl-1">
                 <ul class="breadcrumbs__ul row">
                     <li class="breadcrumbs__li col-auto"><a href="#">Главная</a></li>
-                    <li class="breadcrumbs__li col-auto breadcrumbs__li_active"><span>О Карелии</span></li>
+                    <li class="breadcrumbs__li col-auto breadcrumbs__li_active"><span>Новости</span></li>
                 </ul>
             </div>
         </div>
@@ -107,7 +108,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg col-12 offset-xl-1">
-                <h2 class="title-h2">Общая информация о Карелии</h2>
+                <h2 class="title-h2">Новости</h2>
             </div>
             <ul class="col-auto banner__socials">
                 <li>
@@ -175,298 +176,124 @@
         </div>
     </div>
 </section>
-<section class="main__block">
-    <div class="main__photo">
-        <img src="image/photo17.jpg" alt="">
-    </div>
-    <div class="container">
-        <div class="text-photo">
-            <div class="row justify-content-between">
-                <div class="col-lg-6 offset-xl-1">
-                    <p class="text-p">
-                        Более пяти тысяч лет петроглифам - дошедшим до наших дней наскальным изображениям, выбитым рукой древнею человека. Это знаковые символы, представляющие один из первых образцов древней письменности и культуры человека.
-                    </p>
-                    <p class="text-p">
-                        Отдых в Карелии - это незабываемые впечатления, встреча с неброской, но удивительно притягательной и доброй северной природой, качественное обслуживание и комфорт размещения в коттеджах и загородных гостевых домах, умело организованная охота и рыбалка. Туристские фирмы и организации республики сделают все возможное, чтобы отдых, проведенный в Карелии, вне зависимости, лето это или зима, стал для Вас доброй памятью и вызвал желание возвращаться в этот край снова и снова.
-                    </p>
-                </div>
-                <div class="col-lg-auto">
-                    <div class="photo">
-                        <img src="image/photo18.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="hard-block parallax-window" data-parallax="scroll" data-image-src="image/photo19.jpg">
-        <div class="container">
-            <div class="block ">
-                <div class="row align-items-lg-center h-100 justify-content-lg-center flex-lg-row-reverse flex-column-reverse">
-                    <div class="block-one">
-                        <svg class="d-lg-block d-none" width="251" height="60" viewBox="0 0 251 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M23.76 0H214.444C236.102 0 251 9.10515 251 29.9918C251.021 50.9768 236.385 60.059 214.184 59.9997H0V0L23.76 0Z" fill="#096FA7"/>
-                        </svg>
-                        <p class="text-p ml-lg-3">1708 - 1721</p>
-                        <svg class='hard__arrow ml-lg-3' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#096FA7" stroke="#096FA7"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-                        <div class="bottom-line d-lg-block d-none ml-lg-3">
-                            <div class="side-line"></div>
-                            <div class="triangle">
-                            </div>
-                            <div class="side-line"></div>
-                        </div>
-                        <div class="text-bottom ml-lg-3">Российская империя</div>
-                    </div>
-                    <div class="block-one">
-                        <svg class="d-lg-block d-none" width="247" height="60" viewBox="0 0 247 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0L209.976 0C231.594 0 247 9.09437 247 30C247 50.9056 231.594 60 209.976 60H0V0Z" fill="#004B6E"/>
-                        </svg>
-                        <p class="text-p ml-lg-3">1530 - 1550</p>
-                        <svg class='hard__arrow ml-lg-3' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#004B6E" stroke="#004B6E"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-                        <div class="bottom-line d-lg-block d-none ml-lg-3">
-                            <div class="side-line"></div>
-                            <div class="triangle">
-                            </div>
-                            <div class="side-line"></div>
-                        </div>
-                        <div class="text-bottom ml-lg-3">Карельское герцогство</div>
-                    </div>
-                    <div class="block-one">
-                        <svg class="d-lg-block d-none" width="246" height="60" viewBox="0 0 246 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0L209.165 0C230.867 0 245.5 9.09431 245.5 30C245.5 50.9056 230.867 60 209.165 60H0V0Z" fill="#A71C1C"/>
-                        </svg>
-                        <p class="text-p ml-lg-3">1337 - 1338</p>
-                        <svg class='hard__arrow ml-lg-3' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#A71C1C" stroke="#A71C1C"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-                        <div class="bottom-line d-lg-block d-none ml-lg-3">
-                            <div class="side-line"></div>
-                            <div class="triangle">
-                            </div>
-                            <div class="side-line"></div>
-                        </div>
-                        <div class="text-bottom ml-lg-3">Постройка Выборга</div>
-                    </div>
-                    <div class="block-one">
-                        <svg class="d-lg-block d-none" width="255" height="60" viewBox="0 0 255 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0L217.887 0C239.546 0 255 9.09436 255 30C255 50.9056 239.546 60 217.887 60H0V0Z" fill="#D7182A"/>
-                        </svg>
-                        <p class="text-p ml-lg-3">1333 - 1335</p>
-                        <svg class='hard__arrow ml-lg-3' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#D7182A" stroke="#D7182A"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-                        <div class="bottom-line d-lg-block d-none ml-lg-3">
-                            <div class="side-line"></div>
-                            <div class="triangle">
-                            </div>
-                            <div class="side-line"></div>
-                        </div>
-                        <div class="text-bottom ml-lg-3">Восстание в Кореле</div>
-                    </div>
-                    <div class="block-one">
-                        <svg class="d-lg-block d-none" width="228" height="60" viewBox="0 0 228 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M190.909 60H0L36.1281 29.992L0.115705 0H191.025C212.652 0.0320289 228 9.14329 228 30C228 50.8948 212.567 59.9872 190.909 60Z" fill="#F096AD"/>
-                        </svg>
-                        <p class="text-p">1277 - 1278</p>
-                        <svg class='hard__arrow' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#F096AD" stroke="#F096AD"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-                        <div class="bottom-line d-lg-block d-none">
-                            <div class="side-line"></div>
-                            <div class="triangle">
-                            </div>
-                            <div class="side-line"></div>
-                        </div>
-                        <div class="text-bottom">Сага о Скьёлдунгах</div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="block d-lg-none d-none">
-                <div class="row flex-column-reverse">
-                    <div class="block-one">
-
-                        <p class="text-p ">1708 - 1721</p>
-                        <svg class='hard__arrow ' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#096FA7" stroke="#096FA7"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-
-                        <div class="text-bottom ">Российская империя</div>
-                    </div>
-                    <div class="block-one">
-
-                        <p class="text-p ">1530 - 1550</p>
-                        <svg class='hard__arrow ' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#004B6E" stroke="#004B6E"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-
-                        <div class="text-bottom ">Карельское герцогство</div>
-                    </div>
-                    <div class="block-one">
-
-                        <p class="text-p ">1337 - 1338</p>
-                        <svg class='hard__arrow ' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#A71C1C" stroke="#A71C1C"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-
-                        <div class="text-bottom ">Постройка Выборга</div>
-                    </div>
-                    <div class="block-one">
-
-                        <p class="text-p ">1333 - 1335</p>
-                        <svg class='hard__arrow ' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#D7182A" stroke="#D7182A"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-
-                        <div class="text-bottom ">Восстание в Кореле</div>
-                    </div>
-                    <div class="block-one">
-
-                        <p class="text-p">1277 - 1278</p>
-                        <svg class='hard__arrow' width="38" height="94" viewBox="0 0 38 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18.6953 56.2303L0 74.9312L18.6953 93.632L37.3907 74.9312L18.6953 56.2303Z" fill="white"/>
-                            <path d="M14.0254 74.9341L14.0254 74.9322C14.0254 74.0073 14.2999 73.1032 14.8139 72.3345C15.328 71.5658 16.0585 70.967 16.913 70.6139C17.7675 70.2608 18.7075 70.1694 19.614 70.3511C20.5204 70.5329 21.3527 70.9797 22.0051 71.6349L22.3594 71.2821L22.0051 71.6349C22.6576 72.2901 23.101 73.1243 23.2792 74.0319C23.4574 74.9394 23.3622 75.8794 23.0059 76.7329C22.6496 77.5863 22.0481 78.3147 21.2776 78.8259C20.5071 79.3371 19.6024 79.608 18.6778 79.6044H18.6759C18.0637 79.6044 17.4574 79.4835 16.892 79.2485C16.3266 79.0136 15.8132 78.6694 15.3811 78.2355C14.949 77.8016 14.6068 77.2865 14.3742 76.72C14.1415 76.1535 14.023 75.5466 14.0254 74.9341Z" fill="#F096AD" stroke="#F096AD"/>
-                            <path d="M19 5L19 69" stroke="white" stroke-miterlimit="10"/>
-                            <path d="M24.3212 6.09741H14L19.1505 0.824219L24.3212 6.09741Z" fill="white"/>
-                        </svg>
-
-                        <div class="text-bottom">Сага о Скьёлдунгах</div>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-    </div>
-    <div class="container">
-        <h2 class="title-h2 title-h2_block offset-1">Времена года</h2>
-        <div class="text-photo">
-            <div class="row justify-content-between">
-                <div class="col-lg-auto offset-xl-1">
-                    <div class="photo">
-                        <img src="image/photo20.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <p class="text-p">
-                        Более пяти тысяч лет петроглифам - дошедшим до наших дней наскальным изображениям, выбитым рукой древнею человека. Это знаковые символы, представляющие один из первых образцов древней письменности и культуры человека.
-                    </p>
-                    <p class="text-p">
-                        Отдых в Карелии - это незабываемые впечатления, встреча с неброской, но удивительно притягательной и доброй северной природой, качественное обслуживание и комфорт размещения в коттеджах и загородных гостевых домах, умело организованная охота и рыбалка. Туристские фирмы и организации республики сделают все возможное, чтобы отдых, проведенный в Карелии, вне зависимости, лето это или зима, стал для Вас доброй памятью и вызвал желание возвращаться в этот край снова и снова.
-                    </p>
-                </div>
-
-            </div>
-        </div>
-        <div class="text-photo">
-            <div class="row justify-content-between">
-                <div class="col-lg-6 offset-xl-1 order-lg-1 order-2">
-                    <p class="text-p">
-                        Более пяти тысяч лет петроглифам - дошедшим до наших дней наскальным изображениям, выбитым рукой древнею человека. Это знаковые символы, представляющие один из первых образцов древней письменности и культуры человека.
-                    </p>
-                    <p class="text-p">
-                        Отдых в Карелии - это незабываемые впечатления, встреча с неброской, но удивительно притягательной и доброй северной природой, качественное обслуживание и комфорт размещения в коттеджах и загородных гостевых домах, умело организованная охота и рыбалка. Туристские фирмы и организации республики сделают все возможное, чтобы отдых, проведенный в Карелии, вне зависимости, лето это или зима, стал для Вас доброй памятью и вызвал желание возвращаться в этот край снова и снова.
-                    </p>
-                </div>
-                <div class="col-lg-auto order-lg-2 order-1">
-                    <div class="photo">
-                        <img src="image/photo21.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="main__photo">
-        <img src="image/photo22.jpg" alt="">
-    </div>
+<section class="filers__all filers-cafe filers-calendar filers-news">
     <div class="container">
         <div class="row">
-            <div class="col offset-lg-1">
-                <p class="text-p text-p_under">
-                    Отдых в Карелии - это незабываемые впечатления, встреча с неброской, но удивительно притягательной и доброй северной природой, качественное обслуживание и комфорт размещения в коттеджах и загородных гостевых домах, умело организованная охота и рыбалка. Туристские фирмы и организации республики сделают все возможное, чтобы отдых, проведенный в Карелии, вне зависимости, лето это или зима, стал для Вас доброй памятью и вызвал желание возвращаться в этот край снова и снова.
-                </p>
-            </div>
-        </div>
-        <div class="articles">
-            <h2 class="title-h2 offset-1">Статьи</h2>
-            <div class="row justify-content-center row-cols-lg-2">
-                <div class="col-lg-5 col">
-                    <div class="articles__item">
-                        <div class="photo">
-                            <img src="image/photo23.jpg" alt="">
+            <div class="col-xl-3 col-lg-4 offset-xl-1">
+                <div class="filter__block">
+                    <h5 class="title-h5 filter__block-title">Фильтр новостей</h5>
+                    <a href="#" class="filter__block-clear">
+                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.99999 13C3.69141 13 0.999981 10.3086 0.999982 6.99999C0.999982 3.69138 3.69141 0.999981 6.99999 0.999981C9.96722 0.999982 12.4313 3.16685 12.9097 5.99998L11 5.99998L13.5 8.49998L16 5.99998L13.9202 5.99998C13.4324 2.61339 10.5195 -2.39561e-07 6.99999 -3.93403e-07C3.14014 -5.62122e-07 -1.3726e-07 3.14014 -3.05979e-07 6.99999C-4.74699e-07 10.8598 3.14014 14 6.99999 14L6.99999 13Z" fill="#D7182A"/>
+                        </svg>
+                        Сбросить фильтры
+                    </a>
+                    <div class="row">
+                        <div class="filter__block-setting col-lg-12 col-6">
+                            <h5 class="title-h5">Выбор месяца:</h5>
+                            <div class="filter__block-settings filter__block-settings_calendar select__block">
+                                <!-- <h5 class="title-h5">Город / Населенный пункт:</h5> -->
+                                <!-- <img src="image/calendar.png" alt=""> -->
+                                <input type="date" class="custom" placeholder="Выбрать дату">
+                            </div>
                         </div>
-                        <div class="block__bottom">
-                            <div class="block__info">
-                                <h5 class="title-h5">Название:</h5>
-                                <p class="text-p">День Республики</p>
+                        <div class="filter__block-setting col-lg-12 col-6">
+                            <h5 class="title-h5">Выбор года:</h5>
+                            <div class="filter__block-settings filter__block-settings_calendar select__block">
+                                <!-- <h5 class="title-h5">Город / Населенный пункт:</h5> -->
+                                <!-- <img src="image/calendar.png" alt=""> -->
+                                <input type="date" class="custom" placeholder="Выбрать дату">
                             </div>
-                            <div class="block__info">
-                                <h5 class="title-h5">Дата:</h5>
-                                <p class="text-p">09.07.2020</p>
+                        </div>
+                        <a href="#" class="button-a">Поиск</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <h4 class="title-h4 title-filter">Найдено: 4 новости</h4>
+                <div class="block__finder row">
+                    <div class="col-md-6">
+                        <div class="block__item">
+                            <div class="photo">
+                                <img src="image/photo27.jpg" alt="">
                             </div>
-                            <div class="block__info">
-                                <h5 class="title-h5">Вид:</h5>
-                                <p class="text-p">Праздник</p>
+                            <div class="bottom__text">
+                                <h4 class="title-h4">Ретропоезд: на паровозной тяге из Сортавалы в Рускеалу!</h4>
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Дата:</h5>
+                                    <p class="text-p">09.07.2020</p>
+                                </div>
+                                <p class="text-p">
+                                    Если вы еще не решили какдобраться из Сортавала до Горного парка Рускеала, то этот вариант для Вас!
+                                </p>
+                                <a href="#" data-popup="news" class="button-a button-a_v2">Посмотреть</a>
                             </div>
-                            <div class="block__info">
-                                <h5 class="title-h5">Место проведени:</h5>
-                                <p class="text-p">Карелия</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="block__item">
+                            <div class="photo">
+                                <img src="image/photo27.jpg" alt="">
                             </div>
-                            <a href="#" class="button-a button-a_v2">Посмотреть</a>
+                            <div class="bottom__text">
+                                <h4 class="title-h4">Ретропоезд: на паровозной тяге из Сортавалы в Рускеалу!</h4>
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Дата:</h5>
+                                    <p class="text-p">09.07.2020</p>
+                                </div>
+                                <p class="text-p">
+                                    Если вы еще не решили какдобраться из Сортавала до Горного парка Рускеала, то этот вариант для Вас!
+                                </p>
+                                <a href="#" class="button-a button-a_v2">Посмотреть</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="block__item">
+                            <div class="photo">
+                                <img src="image/photo27.jpg" alt="">
+                            </div>
+                            <div class="bottom__text">
+                                <h4 class="title-h4">Ретропоезд: на паровозной тяге из Сортавалы в Рускеалу!</h4>
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Дата:</h5>
+                                    <p class="text-p">09.07.2020</p>
+                                </div>
+                                <p class="text-p">
+                                    Если вы еще не решили какдобраться из Сортавала до Горного парка Рускеала, то этот вариант для Вас!
+                                </p>
+                                <a href="#" class="button-a button-a_v2">Посмотреть</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="block__item">
+                            <div class="photo">
+                                <img src="image/photo27.jpg" alt="">
+                            </div>
+                            <div class="bottom__text">
+                                <h4 class="title-h4">Ретропоезд: на паровозной тяге из Сортавалы в Рускеалу!</h4>
+                                <div class="bottom__block">
+                                    <h5 class="title-h5">Дата:</h5>
+                                    <p class="text-p">09.07.2020</p>
+                                </div>
+                                <p class="text-p">
+                                    Если вы еще не решили какдобраться из Сортавала до Горного парка Рускеала, то этот вариант для Вас!
+                                </p>
+                                <a href="#" class="button-a button-a_v2">Посмотреть</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 col">
-                    <div class="articles__item">
-                        <div class="photo">
-                            <img src="image/photo23.jpg" alt="">
-                        </div>
-                        <div class="block__bottom">
-                            <div class="block__info">
-                                <h5 class="title-h5">Название:</h5>
-                                <p class="text-p">День Республики</p>
-                            </div>
-                            <div class="block__info">
-                                <h5 class="title-h5">Дата:</h5>
-                                <p class="text-p">09.07.2020</p>
-                            </div>
-                            <div class="block__info">
-                                <h5 class="title-h5">Вид:</h5>
-                                <p class="text-p">Праздник</p>
-                            </div>
-                            <div class="block__info">
-                                <h5 class="title-h5">Место проведени:</h5>
-                                <p class="text-p">Карелия</p>
-                            </div>
-                            <a href="#" class="button-a button-a_v2">Посмотреть</a>
-                        </div>
+                <div class="row justify-content-center">
+                    <div class="pagination col-auto">
+                        <ul>
+                            <li class="pagination__arr pagination__arr-prev"><a href="#"></a></li>
+                            <li class="pagination__page pagination__page_active"><a href="#">1</a></li>
+                            <li class="pagination__page"><a href="#">2</a></li>
+                            <li class="pagination__page"><a href="#">3</a></li>
+                            <li class="pagination__arr pagination__arr-next"><a href="#"></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -570,7 +397,29 @@
                 <div class="footer__bottom">
                     <div class="row justify-content-between">
                         <nav class="footer__nav col">
-                            {{ menu('footer_menu' , 'layouts.footer_menu') }}
+                            <ul class="nav__ul row">
+                                <li class="nav__li col-4">
+                                    <a href="#" class="nav__link">Главная</a>
+                                </li>
+                                <li class="nav__li col-4">
+                                    <a href="#" class="nav__link">О Карелии</a>
+                                </li>
+                                <li class="nav__li col-4">
+                                    <a href="#" class="nav__link">События</a>
+                                </li>
+                                <li class="nav__li col-4">
+                                    <a href="#" class="nav__link">Новости</a>
+                                </li>
+                                <li class="nav__li col-6">
+                                    <a href="#" class="nav__link">Туристам</a>
+                                </li>
+                                <li class="nav__li col-4">
+                                    <a href="#" class="nav__link">Впечатления</a>
+                                </li>
+                                <li class="nav__li col-6">
+                                    <a href="#" class="nav__link">Маршруты</a>
+                                </li>
+                            </ul>
                         </nav>
                         <div class="footer__info col-4">
                             <a href="tel: +78142764835">
@@ -622,29 +471,7 @@
                     </div>
                 </div>
                 <nav class="footer__nav">
-                    <ul class="nav__ul row">
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Главная</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">О Карелии</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Новости</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Туристам</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Впечатления</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">Маршруты</a>
-                        </li>
-                        <li class="nav__li col-6">
-                            <a href="#" class="nav__link">События</a>
-                        </li>
-                    </ul>
+                    {{ menu('footer_menu' , 'layouts.footer_menu') }}
                 </nav>
                 <div class="footer__info row justify-content-between">
                     <a class="col-auto" href="#">
@@ -742,11 +569,8 @@
             </div>
         </div>
     </div>
-
 </footer>
 <script type="text/javascript" src="/build/js/app.min.js"></script>
-<script type="text/javascript" src="/build/js/sliderUI.js"></script>
-<script type="text/javascript" src="/build/js/sliderUI_PUSH.js"></script>
 <script type="text/javascript" src="/build/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/build/js/slick.min.js"></script>
 <script type="text/javascript" src="/build/js/parallax.min.js"></script>
